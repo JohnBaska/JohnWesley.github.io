@@ -1,0 +1,33 @@
+.about-me h1{
+    font-size: 50px;
+}
+
+.conteudo{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo p{
+    width: 600px;
+}
+
+.curriculo{
+    position: relative;
+    left: 33%;
+}
+
+.container{
+    background-color: rgb(211, 205, 197);
+    height: 240px;
+    position: relative;
+    top: -15px;
+}
+
+.about-me h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

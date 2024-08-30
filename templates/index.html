@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfólio - John Wesley</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{url_for('static', filename='/style/Menu-Navegacao.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='/style/Janela.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='/style/Conteudo-Home.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='/style/Conteudo-about.css')}}">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="nav-item"><a class="nav-link" onclick="ativaHome()">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="ativaAboutMe()">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="window" id="window">
+                <div class="window-title">
+                    <h2>Portfólio</h2>
+                </div>
+                <div class="window-content">
+                    <div class="home" id="home">
+                        <h1>Seja Bem-Vindo ao <br><span>Meu Portfólio</span></h1>
+
+                        <ul>
+                            <li><img src="{{url_for('static', filename='icones/Python.png')}}" alt="Python"></li>
+                            <li><img src="{{url_for('static', filename='icones/HTML.png')}}" alt="HTML"></li>
+                            <li><img src="{{url_for('static', filename='icones/CSS.png')}}" alt="CSS"></li>
+                            <li><img src="{{url_for('static', filename='icones/JavaScript.png')}}" alt="JavaScript"></li>
+                        </ul>
+
+                        <div class="citacao">
+                            Ícone em: <a target="_blank" href="https://icons8.com">Icons8</a>
+                        </div>
+                    </div>
+                    <div class="about-me" id="about-me">
+                        <h1>Sobre Mim</h1>
+                        <div class="container">
+                            <div class="conteudo">
+                                <p>Olá, meu nome é John Wesley Florentino Diniz. Sou desenvolvedor FullStack. Tenho 18 anos, estou no 3º ano do Ensino Médio e Cursando Desenvolvimento de Sistemas no COLTEC-UFMG. Trabalho como estagiário na Invent Vision (uma empresa focada em motagem e sistema de cãmeras). Atualmente as tecnologias que mais usei foram Python, HTML, CSS e JavaScript</p>
+                            </div>
+                            <p class="curriculo">Se quiser mais informações: <a href="https://johnbaska.github.io/">Currículo</a></p>
+                        </div>
+                    </div>
+                    <div class="projects" id="projects">
+                        <a href="https://johnbaska.github.io/" >
+                            <div class="container1">
+                                <h2>Site Curriculo</h2>
+    
+                                <p>Status: em atualização</p>
+                                <p>O projeto consiste em um site que é como meu currículo</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+        <script src="{{url_for('static', filename='scripts/movimentoJanela.js')}}"></script>
+        <script src="{{url_for('static', filename='scripts/index.js')}}"></script>
+   </body>
+</html>
