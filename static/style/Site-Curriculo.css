@@ -1,0 +1,37 @@
+.titulo{
+    font-size: 50px;
+    margin: 0;
+    padding-top: 18px;
+    color: black;
+}
+
+.subtitulo{
+    font-style: italic;
+    color: rgb(139, 137, 133);
+    position: absolute;
+    top: 80px 
+}
+
+.data-publicacao{
+    margin-top: 25px;
+    color: rgb(65, 65, 65);
+}
+
+.separador{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.conteudo{
+    position: relative;
+    left: 30px;
+}
+
+.header{
+    text-decoration: none;
+}
+
+.header :hover{
+    text-decoration: underline black;
+}

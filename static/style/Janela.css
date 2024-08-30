@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(136, 142, 142);
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -11,7 +15,7 @@ main{
     border: 1px solid #888;
     width: 720px;
     position: absolute;
-    top: 25%;
+    left: 10%;
 }
 
 .window-title{
